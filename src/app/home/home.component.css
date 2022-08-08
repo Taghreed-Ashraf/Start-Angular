@@ -1,0 +1,22 @@
+section {
+  background-color: #1ABC9C;
+  height: fit-content;
+}
+
+img {
+  width: 250px;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: 'bold';
+  font-weight: 700;
+  color: white;
+}
+
+.text {
+  font-size: 24px;
+  color: white;
+  font-family: 'lato';
+  font-weight: 400;
+}

@@ -1,0 +1,46 @@
+<section class="d-flex justify-content-center align-items-center">
+  <div class="container mb-5 pb-5">
+    
+    <div class="pt-5 pb-4 mt-5">
+      <div class="content text-center pt-3 mt-5">
+        <h2 class="">PORTFOLIO</h2>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="line line2"></div>
+          <div class="icon"><i class="fa-solid fa-star fa-2x mb-3"></i></div>
+          <div class="line line2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row gy-4">
+      <div *ngFor="let item of allimages" class="col-md-6 col-lg-4">
+        <div (click)="pressImg(item)" class="main-pic">
+          <img class="img-fluid" [src]="item.image" alt="">
+          <div class="layer">
+            <i class="fa-solid fa-plus fa-5x text-white"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="item" class="lightBox-Contaner d-none" >
+        <div class="lightBox-item">
+          <i (click)="closeWindow()" id="close" class="fa-solid fa-xmark fa-3x"></i>
+          <div class="w-60 text-center">
+          <p class="special mt-5 mb-0 ">{{titleSrc}}</p>
+          <div class="d-flex justify-content-center align-items-center mb-5">
+              <div class="line line2"></div>
+              <div class="icon"><i class="fa-solid fa-star fa-2x mb-3"></i></div>
+              <div class="line line2"></div>
+            </div>
+            <img class="img-fluid" [src]="imgSrc" alt="">
+            <p class=" mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <button (click)="closeWindow()" class="btn"><i class="fa-solid fa-xmark"></i> Close Window</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>

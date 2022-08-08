@@ -1,0 +1,54 @@
+section {
+  height: fit-content;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: 'bold';
+  font-weight: 700;
+  color: #2C3E50;
+}
+
+.fa-star {
+  color: #2C3E50;
+}
+
+.color {
+  color: red;
+}
+
+.input {
+  border-bottom: 1px solid #e9ecef;
+  padding: 13px 0;
+}
+
+form {
+  width: 65%;
+}
+
+
+.color {
+  color: #1ABC9C;
+}
+
+.color2 {
+  color: black;
+}
+
+.form-control {
+  font-size: 25px;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important;
+}
+
+.btn {
+  background-color: #1ABC9C;
+  color: white;
+  margin-top: 40px;
+  padding: 10px 20px;
+  font-size: 20px;
+}

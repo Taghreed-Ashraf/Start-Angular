@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'bold';
+  src: url(./assets/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(./assets/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "lato300";
+  src: url(./assets/Lato/Lato-Light.ttf);
+}
+
+.line {
+  background-color: white;
+  width: 120px;
+  height: 4px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+
+.line2 {
+  background-color: #2C3E50;
+}
+

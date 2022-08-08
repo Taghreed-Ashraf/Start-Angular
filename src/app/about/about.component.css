@@ -1,0 +1,23 @@
+section {
+  background-color: #1ABC9C;
+  height: fit-content;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: 'bold';
+  font-weight: 700;
+  color: white;
+}
+
+.text2 {
+  color: white;
+  font-family: "lato300";
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+.pic {
+  height: 200px;
+}

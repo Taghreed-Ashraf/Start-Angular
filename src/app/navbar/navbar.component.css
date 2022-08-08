@@ -1,0 +1,39 @@
+nav {
+  background-color: #2C3E50;
+  padding: 25px 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 28px;
+  font-family: 'bold';
+  font-weight: 700;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 8px;
+  font-family: 'bold';
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.navbar-toggler-icon {
+  width: 70px;
+  font-size: 14px;
+  background-color: #1ABC9C;
+}
+
+button {
+  background-color: #1ABC9C;
+}
+
+.nav-link:hover {
+  color: #1ABC9C;
+}
+
+.active {
+  background-color: #1ABC9C;
+  border-radius: 5px;
+  color: white !important;
+}
